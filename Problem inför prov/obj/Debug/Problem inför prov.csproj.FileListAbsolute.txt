@@ -1,0 +1,15 @@
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\bin\Debug\Problem inför prov.exe.config
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\bin\Debug\Problem inför prov.exe
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\bin\Debug\Problem inför prov.pdb
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem inför prov.csprojAssemblyReference.cache
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form1.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form2.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Properties.Resources.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem inför prov.csproj.GenerateResource.cache
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem inför prov.csproj.CoreCompileInputs.cache
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem inför prov.exe
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem inför prov.pdb
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form3.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form4.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form5.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form6.resources
