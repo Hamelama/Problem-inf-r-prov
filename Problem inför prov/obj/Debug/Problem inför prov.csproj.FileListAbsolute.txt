@@ -13,3 +13,4 @@ C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debu
 C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form4.resources
 C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form5.resources
 C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form6.resources
+C:\Users\Lech Kula\source\repos\Problem inför prov\Problem inför prov\obj\Debug\Problem_inför_prov.Form7.resources

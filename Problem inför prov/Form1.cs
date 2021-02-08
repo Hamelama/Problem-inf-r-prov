@@ -89,5 +89,11 @@ namespace Problem_inför_prov
         {
             number = Math.Pow(number, 0.5);
         }
+
+        private void Form7Button_Click(object sender, EventArgs e)
+        {
+            Form7 form7 = new Form7();
+            form7.ShowDialog();
+        }
     }
 }

@@ -45,6 +45,7 @@ namespace Problem_inför_prov
             this.BttnSquare = new System.Windows.Forms.Button();
             this.TxtBoxKvadrerad = new System.Windows.Forms.TextBox();
             this.BttnRoot = new System.Windows.Forms.Button();
+            this.Form7Button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // InputTextbox
@@ -191,11 +192,22 @@ namespace Problem_inför_prov
             this.BttnRoot.UseVisualStyleBackColor = true;
             this.BttnRoot.Click += new System.EventHandler(this.BttnRoot_Click);
             // 
+            // Form7Button
+            // 
+            this.Form7Button.Location = new System.Drawing.Point(39, 214);
+            this.Form7Button.Name = "Form7Button";
+            this.Form7Button.Size = new System.Drawing.Size(100, 23);
+            this.Form7Button.TabIndex = 16;
+            this.Form7Button.Text = "Uttagsautomat";
+            this.Form7Button.UseVisualStyleBackColor = true;
+            this.Form7Button.Click += new System.EventHandler(this.Form7Button_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Form7Button);
             this.Controls.Add(this.BttnRoot);
             this.Controls.Add(this.TxtBoxKvadrerad);
             this.Controls.Add(this.BttnSquare);
@@ -238,6 +250,7 @@ namespace Problem_inför_prov
         private System.Windows.Forms.Button BttnSquare;
         private System.Windows.Forms.TextBox TxtBoxKvadrerad;
         private System.Windows.Forms.Button BttnRoot;
+        private System.Windows.Forms.Button Form7Button;
     }
 }
 
