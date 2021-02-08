@@ -39,6 +39,9 @@ namespace Problem_inför_prov
             this.Slot1Timer = new System.Windows.Forms.Timer(this.components);
             this.Slot2Timer = new System.Windows.Forms.Timer(this.components);
             this.Slot3Timer = new System.Windows.Forms.Timer(this.components);
+            this.KeepSlot1 = new System.Windows.Forms.CheckBox();
+            this.KeepSlot2 = new System.Windows.Forms.CheckBox();
+            this.KeepSlot3 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.Slot1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Slot2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Slot3)).BeginInit();
@@ -97,11 +100,48 @@ namespace Problem_inför_prov
             // 
             this.Slot2Timer.Tick += new System.EventHandler(this.Slot2Timer_Tick);
             // 
+            // Slot3Timer
+            // 
+            this.Slot3Timer.Tick += new System.EventHandler(this.Slot3Timer_Tick);
+            // 
+            // KeepSlot1
+            // 
+            this.KeepSlot1.AutoSize = true;
+            this.KeepSlot1.Location = new System.Drawing.Point(293, 228);
+            this.KeepSlot1.Name = "KeepSlot1";
+            this.KeepSlot1.Size = new System.Drawing.Size(80, 17);
+            this.KeepSlot1.TabIndex = 4;
+            this.KeepSlot1.Text = "checkBox1";
+            this.KeepSlot1.UseVisualStyleBackColor = true;
+            // 
+            // KeepSlot2
+            // 
+            this.KeepSlot2.AutoSize = true;
+            this.KeepSlot2.Location = new System.Drawing.Point(419, 228);
+            this.KeepSlot2.Name = "KeepSlot2";
+            this.KeepSlot2.Size = new System.Drawing.Size(80, 17);
+            this.KeepSlot2.TabIndex = 5;
+            this.KeepSlot2.Text = "checkBox2";
+            this.KeepSlot2.UseVisualStyleBackColor = true;
+            // 
+            // KeepSlot3
+            // 
+            this.KeepSlot3.AutoSize = true;
+            this.KeepSlot3.Location = new System.Drawing.Point(543, 228);
+            this.KeepSlot3.Name = "KeepSlot3";
+            this.KeepSlot3.Size = new System.Drawing.Size(80, 17);
+            this.KeepSlot3.TabIndex = 6;
+            this.KeepSlot3.Text = "checkBox3";
+            this.KeepSlot3.UseVisualStyleBackColor = true;
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.KeepSlot3);
+            this.Controls.Add(this.KeepSlot2);
+            this.Controls.Add(this.KeepSlot1);
             this.Controls.Add(this.Slot3);
             this.Controls.Add(this.Slot2);
             this.Controls.Add(this.Slot1);
@@ -113,6 +153,7 @@ namespace Problem_inför_prov
             ((System.ComponentModel.ISupportInitialize)(this.Slot2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Slot3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -126,5 +167,8 @@ namespace Problem_inför_prov
         private System.Windows.Forms.Timer Slot1Timer;
         private System.Windows.Forms.Timer Slot2Timer;
         private System.Windows.Forms.Timer Slot3Timer;
+        private System.Windows.Forms.CheckBox KeepSlot1;
+        private System.Windows.Forms.CheckBox KeepSlot2;
+        private System.Windows.Forms.CheckBox KeepSlot3;
     }
 }

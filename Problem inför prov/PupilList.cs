@@ -11,16 +11,19 @@ namespace Problem_inför_prov
         public int currentPos;
         public List<Pupil> pupils = new List<Pupil>();
 
-        public PupilList(int current)
+        public PupilList()
         {
-            currentPos = current;
+            currentPos = 0;
         }
 
         public void AddPupil(Pupil pupil)
         {
-            //Index minus 1
-            if (currentPos >= (pupils.Count() - 1))
+           
+            if (currentPos == pupils.Count())
             {
+                //Om nuvarande positiobn är lika lång som listan, så är den nya positionen
+                //samma index som positionen. Om listan innehåller 4 så är nytt idnex 4 (fast det
+                //blir ju den 5:e eleven, men index börjar på 0
                 pupils.Insert(currentPos, pupil);
             }
             else

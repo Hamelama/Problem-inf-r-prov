@@ -8,9 +8,15 @@ namespace Problem_inför_prov
 {
     class SlotMachine
     {
-        public int amountOfTicks = 0;
-        public int ticksSlot1 = 5;
-        public int ticksSlot2 = 10;
+        public int ticksSlot3 { get; set; }
+        public int ticksSlot1 { get; set; }
+        public int ticksSlot2 { get; set;}
+
+        public int amountOfRolls { get; set; }
+        public bool Keep1 { get; set; }
+        public bool Keep2 { get; set; }
+        public bool Keep3 { get; set; }
+
 
     }
 }

@@ -25,9 +25,13 @@ namespace Problem_inför_prov
             LabelGrade.Text = "Betyg";
             LabelName.Text = "Namn";
             LabelResult.Text = "Resultat";
+            LabelPos.Text = "Nummer";
+            TextboxPos.ReadOnly = true;
+            LabelError.Text = "Inga fler elever";
+            LabelError.Visible = false;
 
         }
-        PupilList listOfPupils = new PupilList(0); 
+        PupilList listOfPupils = new PupilList(); 
         
         
         private void bttnEnter_Click(object sender, EventArgs e)
@@ -42,26 +46,47 @@ namespace Problem_inför_prov
             TboxName.Text = listOfPupils.pupils[listOfPupils.currentPos].name;
             TboxResult.Text = listOfPupils.pupils[listOfPupils.currentPos].result.ToString();
             TboxGrade.Text = listOfPupils.pupils[listOfPupils.currentPos].grade;
-
+            TextboxPos.Text = (listOfPupils.currentPos + 1).ToString();
+            LabelError.Visible = false;
         }
 
         private void BttnForward_Click(object sender, EventArgs e)
         {
-            listOfPupils.currentPos++;
-            Console.WriteLine(listOfPupils.currentPos);
-            //riktigt dumt
-            TboxName.Text = listOfPupils.pupils[listOfPupils.currentPos].name;
-            TboxResult.Text = listOfPupils.pupils[listOfPupils.currentPos].result.ToString();
-            TboxGrade.Text = listOfPupils.pupils[listOfPupils.currentPos].grade;
+            if ((listOfPupils.currentPos + 1) < listOfPupils.pupils.Count())
+            {
+                listOfPupils.currentPos++;
+
+                //riktigt dumt
+                TboxName.Text = listOfPupils.pupils[listOfPupils.currentPos].name;
+                TboxResult.Text = listOfPupils.pupils[listOfPupils.currentPos].result.ToString();
+                TboxGrade.Text = listOfPupils.pupils[listOfPupils.currentPos].grade;
+                TextboxPos.Text = (listOfPupils.currentPos + 1).ToString();
+                LabelError.Visible = false;
+            }
+            else
+            {
+                LabelError.Visible = true;
+            }
+            
+
             
         }
 
         private void BttnBackward_Click(object sender, EventArgs e)
         {
-            listOfPupils.currentPos--;
-            TboxName.Text = listOfPupils.pupils[listOfPupils.currentPos].name;
-            TboxResult.Text = listOfPupils.pupils[listOfPupils.currentPos].result.ToString();
-            TboxGrade.Text = listOfPupils.pupils[listOfPupils.currentPos].grade;
+            if ((listOfPupils.currentPos - 1) >= 0)
+            {
+                listOfPupils.currentPos--;
+                TboxName.Text = listOfPupils.pupils[listOfPupils.currentPos].name;
+                TboxResult.Text = listOfPupils.pupils[listOfPupils.currentPos].result.ToString();
+                TboxGrade.Text = listOfPupils.pupils[listOfPupils.currentPos].grade;
+                TextboxPos.Text = (listOfPupils.currentPos + 1).ToString();
+                LabelError.Visible = false;
+            }
+            else
+            {
+                LabelError.Visible = true;
+            }
         }
     }
 }

@@ -38,6 +38,9 @@ namespace Problem_inför_prov
             this.LabelName = new System.Windows.Forms.Label();
             this.LabelResult = new System.Windows.Forms.Label();
             this.LabelGrade = new System.Windows.Forms.Label();
+            this.TextboxPos = new System.Windows.Forms.TextBox();
+            this.LabelPos = new System.Windows.Forms.Label();
+            this.LabelError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TboxName
@@ -118,11 +121,39 @@ namespace Problem_inför_prov
             this.LabelGrade.TabIndex = 8;
             this.LabelGrade.Text = "label3";
             // 
+            // TextboxPos
+            // 
+            this.TextboxPos.Location = new System.Drawing.Point(197, 250);
+            this.TextboxPos.Name = "TextboxPos";
+            this.TextboxPos.Size = new System.Drawing.Size(100, 20);
+            this.TextboxPos.TabIndex = 9;
+            // 
+            // LabelPos
+            // 
+            this.LabelPos.AutoSize = true;
+            this.LabelPos.Location = new System.Drawing.Point(194, 234);
+            this.LabelPos.Name = "LabelPos";
+            this.LabelPos.Size = new System.Drawing.Size(35, 13);
+            this.LabelPos.TabIndex = 10;
+            this.LabelPos.Text = "label3";
+            // 
+            // LabelError
+            // 
+            this.LabelError.AutoSize = true;
+            this.LabelError.Location = new System.Drawing.Point(347, 63);
+            this.LabelError.Name = "LabelError";
+            this.LabelError.Size = new System.Drawing.Size(35, 13);
+            this.LabelError.TabIndex = 11;
+            this.LabelError.Text = "label1";
+            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LabelError);
+            this.Controls.Add(this.LabelPos);
+            this.Controls.Add(this.TextboxPos);
             this.Controls.Add(this.LabelGrade);
             this.Controls.Add(this.LabelResult);
             this.Controls.Add(this.LabelName);
@@ -151,5 +182,8 @@ namespace Problem_inför_prov
         private System.Windows.Forms.Label LabelName;
         private System.Windows.Forms.Label LabelResult;
         private System.Windows.Forms.Label LabelGrade;
+        private System.Windows.Forms.TextBox TextboxPos;
+        private System.Windows.Forms.Label LabelPos;
+        private System.Windows.Forms.Label LabelError;
     }
 }
